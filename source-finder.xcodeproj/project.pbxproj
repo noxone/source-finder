@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C58C4A7629F12EA4001DF5BE /* ItemDropper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C4A7529F12EA4001DF5BE /* ItemDropper.swift */; };
+		C58C4A7829F13433001DF5BE /* SourceMapIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C4A7729F13433001DF5BE /* SourceMapIdentifier.swift */; };
+		C58C4A7C29F17009001DF5BE /* MapSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C4A7B29F17009001DF5BE /* MapSelectionView.swift */; };
+		C58C4A7E29F170AC001DF5BE /* UserActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C4A7D29F170AC001DF5BE /* UserActionView.swift */; };
+		C58C4A8029F187BC001DF5BE /* MapLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C4A7F29F187BC001DF5BE /* MapLoader.swift */; };
+		C58C4A8329F18839001DF5BE /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = C58C4A8229F18839001DF5BE /* SwiftSoup */; };
+		C58C4A8529F25C4F001DF5BE /* DropRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C4A8429F25C4F001DF5BE /* DropRecognizer.swift */; };
+		C58C4A8B29F59314001DF5BE /* CollectionConcurrencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = C58C4A8A29F59314001DF5BE /* CollectionConcurrencyKit */; };
+		C58C4A8E29F7B8A4001DF5BE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C4A8D29F7B8A4001DF5BE /* Model.swift */; };
 		C5CD15E029ED425C00347497 /* source_finderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD15DF29ED425C00347497 /* source_finderApp.swift */; };
 		C5CD15E229ED425C00347497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD15E129ED425C00347497 /* ContentView.swift */; };
 		C5CD15E429ED425C00347497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5CD15E329ED425C00347497 /* Assets.xcassets */; };
@@ -14,6 +23,8 @@
 		C5CD15F229ED425C00347497 /* source_finderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD15F129ED425C00347497 /* source_finderTests.swift */; };
 		C5CD15FC29ED425C00347497 /* source_finderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD15FB29ED425C00347497 /* source_finderUITests.swift */; };
 		C5CD15FE29ED425C00347497 /* source_finderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD15FD29ED425C00347497 /* source_finderUITestsLaunchTests.swift */; };
+		C5CD160F29ED5A7F00347497 /* SourceFinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CD160E29ED5A7F00347497 /* SourceFinderView.swift */; };
+		C5CD161229ED5B8100347497 /* SourceMapper in Frameworks */ = {isa = PBXBuildFile; productRef = C5CD161129ED5B8100347497 /* SourceMapper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C58C4A7529F12EA4001DF5BE /* ItemDropper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDropper.swift; sourceTree = "<group>"; };
+		C58C4A7729F13433001DF5BE /* SourceMapIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceMapIdentifier.swift; sourceTree = "<group>"; };
+		C58C4A7B29F17009001DF5BE /* MapSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSelectionView.swift; sourceTree = "<group>"; };
+		C58C4A7D29F170AC001DF5BE /* UserActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActionView.swift; sourceTree = "<group>"; };
+		C58C4A7F29F187BC001DF5BE /* MapLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLoader.swift; sourceTree = "<group>"; };
+		C58C4A8429F25C4F001DF5BE /* DropRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropRecognizer.swift; sourceTree = "<group>"; };
+		C58C4A8D29F7B8A4001DF5BE /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C5CD15DC29ED425C00347497 /* source-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "source-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CD15DF29ED425C00347497 /* source_finderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = source_finderApp.swift; sourceTree = "<group>"; };
 		C5CD15E129ED425C00347497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +63,7 @@
 		C5CD15F729ED425C00347497 /* source-finderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "source-finderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CD15FB29ED425C00347497 /* source_finderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = source_finderUITests.swift; sourceTree = "<group>"; };
 		C5CD15FD29ED425C00347497 /* source_finderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = source_finderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C5CD160E29ED5A7F00347497 /* SourceFinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceFinderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +71,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CD161229ED5B8100347497 /* SourceMapper in Frameworks */,
+				C58C4A8329F18839001DF5BE /* SwiftSoup in Frameworks */,
+				C58C4A8B29F59314001DF5BE /* CollectionConcurrencyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +94,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C58C4A7229F12E55001DF5BE /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				C58C4A7729F13433001DF5BE /* SourceMapIdentifier.swift */,
+				C58C4A7F29F187BC001DF5BE /* MapLoader.swift */,
+				C58C4A8429F25C4F001DF5BE /* DropRecognizer.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		C58C4A8629F3BCA9001DF5BE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C58C4A8C29F7B893001DF5BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C58C4A8D29F7B8A4001DF5BE /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C5CD15D329ED425C00347497 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +144,11 @@
 			children = (
 				C5CD15DF29ED425C00347497 /* source_finderApp.swift */,
 				C5CD15E129ED425C00347497 /* ContentView.swift */,
+				C5CD160A29ED4FD500347497 /* Views */,
+				C5CD160B29ED4FE000347497 /* Controls */,
+				C58C4A8C29F7B893001DF5BE /* Model */,
+				C58C4A7229F12E55001DF5BE /* Logic */,
+				C58C4A8629F3BCA9001DF5BE /* Extensions */,
 				C5CD15E329ED425C00347497 /* Assets.xcassets */,
 				C5CD15E529ED425C00347497 /* source_finder.entitlements */,
 				C5CD15E629ED425C00347497 /* Preview Content */,
@@ -129,6 +181,24 @@
 			path = "source-finderUITests";
 			sourceTree = "<group>";
 		};
+		C5CD160A29ED4FD500347497 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD160E29ED5A7F00347497 /* SourceFinderView.swift */,
+				C58C4A7B29F17009001DF5BE /* MapSelectionView.swift */,
+				C58C4A7D29F170AC001DF5BE /* UserActionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C5CD160B29ED4FE000347497 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				C58C4A7529F12EA4001DF5BE /* ItemDropper.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +215,11 @@
 			dependencies = (
 			);
 			name = "source-finder";
+			packageProductDependencies = (
+				C5CD161129ED5B8100347497 /* SourceMapper */,
+				C58C4A8229F18839001DF5BE /* SwiftSoup */,
+				C58C4A8A29F59314001DF5BE /* CollectionConcurrencyKit */,
+			);
 			productName = "source-finder";
 			productReference = C5CD15DC29ED425C00347497 /* source-finder.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +292,11 @@
 				Base,
 			);
 			mainGroup = C5CD15D329ED425C00347497;
+			packageReferences = (
+				C5CD161029ED5B8100347497 /* XCRemoteSwiftPackageReference "SourceMapper" */,
+				C58C4A8129F18839001DF5BE /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				C58C4A8929F59314001DF5BE /* XCRemoteSwiftPackageReference "CollectionConcurrencyKit" */,
+			);
 			productRefGroup = C5CD15DD29ED425C00347497 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +339,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CD160F29ED5A7F00347497 /* SourceFinderView.swift in Sources */,
 				C5CD15E229ED425C00347497 /* ContentView.swift in Sources */,
+				C58C4A8E29F7B8A4001DF5BE /* Model.swift in Sources */,
+				C58C4A7829F13433001DF5BE /* SourceMapIdentifier.swift in Sources */,
+				C58C4A7629F12EA4001DF5BE /* ItemDropper.swift in Sources */,
+				C58C4A7C29F17009001DF5BE /* MapSelectionView.swift in Sources */,
+				C58C4A7E29F170AC001DF5BE /* UserActionView.swift in Sources */,
+				C58C4A8529F25C4F001DF5BE /* DropRecognizer.swift in Sources */,
 				C5CD15E029ED425C00347497 /* source_finderApp.swift in Sources */,
+				C58C4A8029F187BC001DF5BE /* MapLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +700,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C58C4A8129F18839001DF5BE /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		C58C4A8929F59314001DF5BE /* XCRemoteSwiftPackageReference "CollectionConcurrencyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/CollectionConcurrencyKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+		C5CD161029ED5B8100347497 /* XCRemoteSwiftPackageReference "SourceMapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnfairh/SourceMapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C58C4A8229F18839001DF5BE /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C58C4A8129F18839001DF5BE /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		C58C4A8A29F59314001DF5BE /* CollectionConcurrencyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C58C4A8929F59314001DF5BE /* XCRemoteSwiftPackageReference "CollectionConcurrencyKit" */;
+			productName = CollectionConcurrencyKit;
+		};
+		C5CD161129ED5B8100347497 /* SourceMapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5CD161029ED5B8100347497 /* XCRemoteSwiftPackageReference "SourceMapper" */;
+			productName = SourceMapper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C5CD15D429ED425C00347497 /* Project object */;
 }

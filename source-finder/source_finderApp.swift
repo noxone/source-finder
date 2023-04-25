@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct source_finderApp: App {
+struct SourceFinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView()
+            SourceFinderView()
+                .navigationTitle("Source Finder")
         }
     }
 }
